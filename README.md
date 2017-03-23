@@ -2,19 +2,21 @@
 
 ## Results
 
-**Fastest is encode jwt-simple**
+**Fastest encoder is jwt-simple**
 ```
-encode jwt-simple x 24,890 ops/sec ±2.71% (70 runs sampled)
-encode njwt x 12,379 ops/sec ±2.65% (73 runs sampled)
-encode jwt-node x 9,594 ops/sec ±2.70% (70 runs sampled)
-encode jsonwebtoken x 8,292 ops/sec ±6.40% (68 runs sampled)
+jwt-simple x 22,363 ops/sec ±6.47% (62 runs sampled)
+jws x 17,553 ops/sec ±7.80% (63 runs sampled)
+njwt x 10,447 ops/sec ±3.89% (60 runs sampled)
+jwt-node x 8,167 ops/sec ±3.93% (65 runs sampled)
+jsonwebtoken x 6,922 ops/sec ±12.83% (59 runs sampled)
 ```
-**Fastest is decode jwt-simple**
+**Fastest decoder is jwt-simple**
 ```
-decode jwt-simple x 21,946 ops/sec ±2.25% (73 runs sampled)
-decode jwt-node x 10,913 ops/sec ±3.88% (69 runs sampled)
-decode jsonwebtoken x 9,115 ops/sec ±2.95% (69 runs sampled)
-decode njwt x 8,540 ops/sec ±3.44% (70 runs sampled)
+jwt-simple x 18,052 ops/sec ±6.42% (61 runs sampled)
+jws x 13,914 ops/sec ±5.68% (66 runs sampled)
+jwt-node x 10,776 ops/sec ±7.36% (59 runs sampled)
+jsonwebtoken x 8,797 ops/sec ±2.75% (70 runs sampled)
+njwt x 7,549 ops/sec ±7.34% (59 runs sampled)
 ```
 
 ## To test on your environment
